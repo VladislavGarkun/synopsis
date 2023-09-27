@@ -24,3 +24,5 @@ Java Configuration
 ![[Java Configuration example.png]]
 
 Для внедрения зависимостей используются различные аннотации [[dependency injection]]
+
+При конфигурировании bean'ов стоит принимать во внимание [[bean scopes]].
