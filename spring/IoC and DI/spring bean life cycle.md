@@ -16,7 +16,7 @@
 11) Еще один вариант задания init метода это задание его в аннотации @Bean(initMethod = "initMethod") или в теге "bean" при использовании xml конфигурации.
 12) Метод postProcessAfterInitialization(Object bean, String beanName). Для использования необходимо создать кастомный BeanPostProcessor и переопределить его. Кастомный BeanPostProcessor будет работать для каждого создаваемого bean'а.
 
-Уничтожение Spring bean'а
+Уничтожение Spring bean'а:
 1) Метод с аннотацией @PreDestroy. destroy method используемый при работе с аннотациями.
 2) Destroy method, задаваемый в аннотации @Bean(destroyMethod = "destroyMethod").
 3) Метод destroy(), при реализации интерфейса DisposableBean. 
